@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ACMaterialTextView" customModule="Stretchy" customModuleProvider="target">
+            <connections>
+                <outlet property="contentView" destination="iN0-l3-epB" id="oMH-Lk-Hm0"/>
+                <outlet property="errorLabel" destination="Gev-2f-Ifb" id="eKI-bV-dVW"/>
+                <outlet property="mainContainer" destination="ecI-N9-DDW" id="BIM-O8-KhF"/>
+                <outlet property="placeholderLabel" destination="Iuj-K9-5BG" id="K4V-1j-Tix"/>
+                <outlet property="textview" destination="Lyk-Tn-OsF" id="zV2-CP-I8u"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="163"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DIg-F7-mv9">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="163"/>
+                    <subviews>
+                        <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ecI-N9-DDW">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="143"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Placeholder" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iuj-K9-5BG">
+                                    <rect key="frame" x="14" y="8" width="70" height="14.5"/>
+                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="12"/>
+                                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Lyk-Tn-OsF" customClass="BaseTextView" customModule="Stretchy" customModuleProvider="target">
+                                    <rect key="frame" x="8" y="26.5" width="398" height="108.5"/>
+                                    <color key="textColor" systemColor="labelColor"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="string" keyPath="placeholder" value="This is your placeholder textview"/>
+                                        <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                                            <color key="value" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="boolean" keyPath="shouldHidePlaceholderOnEditing" value="NO"/>
+                                    </userDefinedRuntimeAttributes>
+                                </textView>
+                            </subviews>
+                            <constraints>
+                                <constraint firstAttribute="trailing" secondItem="Lyk-Tn-OsF" secondAttribute="trailing" constant="8" id="EVT-LQ-StA"/>
+                                <constraint firstItem="Iuj-K9-5BG" firstAttribute="leading" secondItem="ecI-N9-DDW" secondAttribute="leading" constant="14" id="L1S-Vr-OjT"/>
+                                <constraint firstItem="Lyk-Tn-OsF" firstAttribute="top" secondItem="Iuj-K9-5BG" secondAttribute="bottom" constant="4" id="PNM-xB-0DF"/>
+                                <constraint firstItem="Iuj-K9-5BG" firstAttribute="top" secondItem="ecI-N9-DDW" secondAttribute="top" constant="8" id="bGY-Y9-S4c"/>
+                                <constraint firstAttribute="bottom" secondItem="Lyk-Tn-OsF" secondAttribute="bottom" constant="8" id="rN1-kC-pqa"/>
+                                <constraint firstItem="Lyk-Tn-OsF" firstAttribute="leading" secondItem="ecI-N9-DDW" secondAttribute="leading" constant="8" id="zgV-xZ-Gh7"/>
+                            </constraints>
+                        </view>
+                        <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please insert your current address" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gev-2f-Ifb">
+                            <rect key="frame" x="0.0" y="147" width="414" height="12"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                            <color key="textColor" systemColor="systemRedColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="Gev-2f-Ifb" firstAttribute="leading" secondItem="ecI-N9-DDW" secondAttribute="leading" id="5Lt-18-NVF"/>
+                        <constraint firstItem="Gev-2f-Ifb" firstAttribute="trailing" secondItem="ecI-N9-DDW" secondAttribute="trailing" id="Bmy-pP-ZQj"/>
+                        <constraint firstAttribute="bottom" secondItem="Gev-2f-Ifb" secondAttribute="bottom" constant="4" id="OcJ-6b-ySg"/>
+                        <constraint firstItem="Gev-2f-Ifb" firstAttribute="top" secondItem="ecI-N9-DDW" secondAttribute="bottom" constant="4" id="apf-Ha-UOa"/>
+                        <constraint firstAttribute="trailing" secondItem="ecI-N9-DDW" secondAttribute="trailing" id="heD-yc-grX"/>
+                        <constraint firstItem="ecI-N9-DDW" firstAttribute="leading" secondItem="DIg-F7-mv9" secondAttribute="leading" id="jsm-Ww-E46"/>
+                        <constraint firstItem="ecI-N9-DDW" firstAttribute="top" secondItem="DIg-F7-mv9" secondAttribute="top" id="rqB-ow-c2R"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="DIg-F7-mv9" secondAttribute="bottom" id="D9T-Ps-wu5"/>
+                <constraint firstItem="DIg-F7-mv9" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="ZBZ-p4-lZU"/>
+                <constraint firstAttribute="trailing" secondItem="DIg-F7-mv9" secondAttribute="trailing" id="dTz-eE-wuf"/>
+                <constraint firstItem="DIg-F7-mv9" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="sfF-dg-naR"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="82.608695652173921" y="37.834821428571423"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

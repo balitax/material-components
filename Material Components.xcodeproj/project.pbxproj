@@ -8,13 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		2652779125FA65510006F947 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2652779025FA65510006F947 /* AppDelegate.swift */; };
-		2652779325FA65510006F947 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2652779225FA65510006F947 /* SceneDelegate.swift */; };
-		2652779525FA65510006F947 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2652779425FA65510006F947 /* ViewController.swift */; };
-		2652779825FA65510006F947 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2652779625FA65510006F947 /* Main.storyboard */; };
 		2652779A25FA65520006F947 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2652779925FA65520006F947 /* Assets.xcassets */; };
 		2652779D25FA65520006F947 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2652779B25FA65520006F947 /* LaunchScreen.storyboard */; };
 		265277A825FA65530006F947 /* Material_ComponentsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265277A725FA65530006F947 /* Material_ComponentsTests.swift */; };
 		265277B325FA65530006F947 /* Material_ComponentsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265277B225FA65530006F947 /* Material_ComponentsUITests.swift */; };
+		26B9B3632602203900D7C355 /* BaseTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B9B3592602203900D7C355 /* BaseTextView.swift */; };
+		26B9B3642602203900D7C355 /* ACMaterialTextView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26B9B35A2602203900D7C355 /* ACMaterialTextView.xib */; };
+		26B9B3652602203900D7C355 /* ACMaterialTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B9B35B2602203900D7C355 /* ACMaterialTextView.swift */; };
+		26B9B3662602203900D7C355 /* ACMateriaTextlField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B9B35D2602203900D7C355 /* ACMateriaTextlField.swift */; };
+		26B9B3672602203900D7C355 /* ACMateriaTextlField.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26B9B35E2602203900D7C355 /* ACMateriaTextlField.xib */; };
+		26B9B3682602203900D7C355 /* BaseTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B9B35F2602203900D7C355 /* BaseTextField.swift */; };
+		26B9B3692602203900D7C355 /* ACMaterialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B9B3612602203900D7C355 /* ACMaterialButton.swift */; };
+		26B9B36A2602203900D7C355 /* ACMaterialSpinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B9B3622602203900D7C355 /* ACMaterialSpinner.swift */; };
+		26B9B370260220A400D7C355 /* AppsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26B9B36E260220A400D7C355 /* AppsViewController.xib */; };
+		26B9B371260220A400D7C355 /* AppsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B9B36F260220A400D7C355 /* AppsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,9 +44,6 @@
 /* Begin PBXFileReference section */
 		2652778D25FA65510006F947 /* Material Components.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Material Components.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2652779025FA65510006F947 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2652779225FA65510006F947 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2652779425FA65510006F947 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2652779725FA65510006F947 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2652779925FA65520006F947 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2652779C25FA65520006F947 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2652779E25FA65520006F947 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +53,16 @@
 		265277AE25FA65530006F947 /* Material ComponentsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Material ComponentsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		265277B225FA65530006F947 /* Material_ComponentsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Material_ComponentsUITests.swift; sourceTree = "<group>"; };
 		265277B425FA65530006F947 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26B9B3592602203900D7C355 /* BaseTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTextView.swift; sourceTree = "<group>"; };
+		26B9B35A2602203900D7C355 /* ACMaterialTextView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ACMaterialTextView.xib; sourceTree = "<group>"; };
+		26B9B35B2602203900D7C355 /* ACMaterialTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACMaterialTextView.swift; sourceTree = "<group>"; };
+		26B9B35D2602203900D7C355 /* ACMateriaTextlField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACMateriaTextlField.swift; sourceTree = "<group>"; };
+		26B9B35E2602203900D7C355 /* ACMateriaTextlField.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ACMateriaTextlField.xib; sourceTree = "<group>"; };
+		26B9B35F2602203900D7C355 /* BaseTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTextField.swift; sourceTree = "<group>"; };
+		26B9B3612602203900D7C355 /* ACMaterialButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACMaterialButton.swift; sourceTree = "<group>"; };
+		26B9B3622602203900D7C355 /* ACMaterialSpinner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACMaterialSpinner.swift; sourceTree = "<group>"; };
+		26B9B36E260220A400D7C355 /* AppsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AppsViewController.xib; sourceTree = "<group>"; };
+		26B9B36F260220A400D7C355 /* AppsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +113,10 @@
 		2652778F25FA65510006F947 /* Material Components */ = {
 			isa = PBXGroup;
 			children = (
+				26B9B3572602203900D7C355 /* Material Components */,
 				2652779025FA65510006F947 /* AppDelegate.swift */,
-				2652779225FA65510006F947 /* SceneDelegate.swift */,
-				2652779425FA65510006F947 /* ViewController.swift */,
-				2652779625FA65510006F947 /* Main.storyboard */,
+				26B9B36F260220A400D7C355 /* AppsViewController.swift */,
+				26B9B36E260220A400D7C355 /* AppsViewController.xib */,
 				2652779925FA65520006F947 /* Assets.xcassets */,
 				2652779B25FA65520006F947 /* LaunchScreen.storyboard */,
 				2652779E25FA65520006F947 /* Info.plist */,
@@ -126,6 +140,45 @@
 				265277B425FA65530006F947 /* Info.plist */,
 			);
 			path = "Material ComponentsUITests";
+			sourceTree = "<group>";
+		};
+		26B9B3572602203900D7C355 /* Material Components */ = {
+			isa = PBXGroup;
+			children = (
+				26B9B3582602203900D7C355 /* Material UITextView */,
+				26B9B35C2602203900D7C355 /* Material UITextField */,
+				26B9B3602602203900D7C355 /* Material UIButton */,
+			);
+			path = "Material Components";
+			sourceTree = "<group>";
+		};
+		26B9B3582602203900D7C355 /* Material UITextView */ = {
+			isa = PBXGroup;
+			children = (
+				26B9B3592602203900D7C355 /* BaseTextView.swift */,
+				26B9B35A2602203900D7C355 /* ACMaterialTextView.xib */,
+				26B9B35B2602203900D7C355 /* ACMaterialTextView.swift */,
+			);
+			path = "Material UITextView";
+			sourceTree = "<group>";
+		};
+		26B9B35C2602203900D7C355 /* Material UITextField */ = {
+			isa = PBXGroup;
+			children = (
+				26B9B35D2602203900D7C355 /* ACMateriaTextlField.swift */,
+				26B9B35E2602203900D7C355 /* ACMateriaTextlField.xib */,
+				26B9B35F2602203900D7C355 /* BaseTextField.swift */,
+			);
+			path = "Material UITextField";
+			sourceTree = "<group>";
+		};
+		26B9B3602602203900D7C355 /* Material UIButton */ = {
+			isa = PBXGroup;
+			children = (
+				26B9B3612602203900D7C355 /* ACMaterialButton.swift */,
+				26B9B3622602203900D7C355 /* ACMaterialSpinner.swift */,
+			);
+			path = "Material UIButton";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +286,9 @@
 			files = (
 				2652779D25FA65520006F947 /* LaunchScreen.storyboard in Resources */,
 				2652779A25FA65520006F947 /* Assets.xcassets in Resources */,
-				2652779825FA65510006F947 /* Main.storyboard in Resources */,
+				26B9B3642602203900D7C355 /* ACMaterialTextView.xib in Resources */,
+				26B9B3672602203900D7C355 /* ACMateriaTextlField.xib in Resources */,
+				26B9B370260220A400D7C355 /* AppsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +313,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2652779525FA65510006F947 /* ViewController.swift in Sources */,
+				26B9B3692602203900D7C355 /* ACMaterialButton.swift in Sources */,
+				26B9B36A2602203900D7C355 /* ACMaterialSpinner.swift in Sources */,
+				26B9B3662602203900D7C355 /* ACMateriaTextlField.swift in Sources */,
+				26B9B3632602203900D7C355 /* BaseTextView.swift in Sources */,
+				26B9B3682602203900D7C355 /* BaseTextField.swift in Sources */,
+				26B9B371260220A400D7C355 /* AppsViewController.swift in Sources */,
 				2652779125FA65510006F947 /* AppDelegate.swift in Sources */,
-				2652779325FA65510006F947 /* SceneDelegate.swift in Sources */,
+				26B9B3652602203900D7C355 /* ACMaterialTextView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,14 +356,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		2652779625FA65510006F947 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2652779725FA65510006F947 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2652779B25FA65520006F947 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -439,6 +491,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VNKMY4BMXA;
 				INFOPLIST_FILE = "Material Components/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -446,7 +499,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "agus.app.Material-Components";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -458,6 +511,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VNKMY4BMXA;
 				INFOPLIST_FILE = "Material Components/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -465,7 +519,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "agus.app.Material-Components";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
